@@ -1,0 +1,12 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "type": "command",
+        "windows": "powershell -NoProfile -NonInteractive -File .github/hooks/block-command-chaining.ps1",
+        "command": "powershell -NoProfile -NonInteractive -File .github/hooks/block-command-chaining.ps1",
+        "timeout": 10
+      }
+    ]
+  }
+}

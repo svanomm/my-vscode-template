@@ -1,11 +1,6 @@
 ---
 name: gliner2
-description: >-
-  Extracts entities, classifies text, and extracts relationships from text using
-  GLiNER2. Use when the user needs named entity recognition (NER), text classification,
-  zero-shot labeling, or relation extraction on arbitrary text with custom labels —
-  no training required. Triggers: entity extraction, NER, classify text, sentiment,
-  relationship extraction, zero-shot classification, label text.
+description: Extracts entities, classifies text, and extracts relationships from text using  GLiNER2. Use when the user needs named entity recognition (NER), text classification, zero-shot labeling, or relation extraction on arbitrary text with custom labels — no training required. Triggers: entity extraction, NER, classify text, sentiment, relationship extraction, zero-shot classification, label text.
 ---
 
 # GLiNER2 Inference
@@ -40,11 +35,6 @@ print(result)
    | `fastino/gliner2-base-v1` | 205M | Default — good balance of speed and quality |
    | `fastino/gliner2-large-v1` | 340M | Higher accuracy, slower |
 
-4. Optional GPU acceleration:
-   ```bash
-   uv add flashdeberta
-   ```
-   Then set the environment variable `USE_FLASHDEBERTA=1` **before** importing gliner2.
 
 ## Procedure
 

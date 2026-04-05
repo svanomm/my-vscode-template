@@ -138,7 +138,7 @@
     "chat.agent.maxRequests": 9999,
     "chat.planAgent.defaultModel": "Claude Opus 4.6 (copilot)",
     "chat.editor.wordWrap": "on",
-    "chat.tools.terminal.sandbox.enabled": true,
     "chat.experimental.useSkillAdherencePrompt": false,
     "inlineChat.notebookAgent": true,
+    "chat.agent.sandbox.enabled": "on",
 }
